@@ -3,7 +3,7 @@
   top: 0;
 }
 #left-column {
-  /* overflow: auto; */
+  overflow: auto;
   min-width: 200px;
 }
 #left-column ul {
