@@ -1,3 +1,7 @@
+#header {
+  position: fixed;
+  top: 0;
+}
 #left-column {
   /* overflow: auto; */
   min-width: 200px;
