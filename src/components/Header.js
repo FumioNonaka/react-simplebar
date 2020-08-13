@@ -1,8 +1,12 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({ headerRef }) => {
   return (
-    <header id="header" className="text-white bg-primary w-100 p-2 d-flex">
+    <header
+      id="header"
+      ref={headerRef}
+      className="text-white bg-primary w-100 p-2 d-flex"
+    >
       <h1>Header</h1>
     </header>
   );
