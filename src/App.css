@@ -12,3 +12,6 @@
 #left-column li {
   font-size: large;
 }
+.simplebar-scrollbar::before {
+  background: linear-gradient(darkblue, skyblue);
+}
