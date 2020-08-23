@@ -1,8 +1,8 @@
 import React from "react";
 
-const MainContents = () => {
+const MainContents = ({ leftColumnWidth }) => {
   return (
-    <main className="px-4 py-2">
+    <main className="px-4 py-2" style={{ marginLeft: leftColumnWidth }}>
       <h2>Main contents</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
